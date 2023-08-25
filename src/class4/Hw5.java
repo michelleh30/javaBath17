@@ -13,7 +13,7 @@ public class Hw5 {
         int years= scanner.nextInt();
 
         if (years>=5){
-            System.out.println("You are eligible for a bonus!");
+            System.out.println("You are eligible for a bonus!How much is your salary?");
         }else{
             System.out.println("Sorry, you are not eligible");
         }

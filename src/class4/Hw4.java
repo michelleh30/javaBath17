@@ -14,6 +14,7 @@ public class Hw4 {
         System.out.println("Do you have a credit card?");
         String value= scanner.next();
 
+
         if (value.equals("Yes")){
             System.out.println("What is your balance?");
         }else{

@@ -11,7 +11,8 @@ public class E1TypeCasting {
 
         System.out.println(number2);
 
-        //types casting picking from one box and putting it into another one, converting one data type into another one
+        //types casting picking from one box and putting it into another one,
+        // converting one data type into another one
         // this type og casting is called implicit, widening
 
         float num1=15.6f;

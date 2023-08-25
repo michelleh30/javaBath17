@@ -1,0 +1,19 @@
+Arrays: data stucher/ elements of the same types
+stores in the index
+Stores alot of data and same data
+stores multi variable
+can use loops- it repeats a block of codes
+    when we dont name the exact number of iterations/repetition-use while or do while
+    when we know how many times we want to repeat or iterate the code- for loop
+        to diff types of for loops normal and Enhance for loop, use index
+    Enhance for loop: Only with arrays or collections
+    Enhance for loop/for each loop/advanced for syntax
+            for(DataTypeofElement anyVariableName:NameofTheDataStructure){
+                            }
+element being store to index
+index start with a 0
+
+2 DArrays
+collection of multi arrays
+rows and coloums
+
