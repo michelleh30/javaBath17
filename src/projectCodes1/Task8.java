@@ -1,4 +1,4 @@
-package codingTasks;
+package projectCodes1;
 
 //Maximum and minimum number in the array?
 public class   Task8 {

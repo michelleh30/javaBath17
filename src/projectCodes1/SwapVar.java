@@ -1,4 +1,4 @@
-package codingTasks;
+package projectCodes1;
 // to swap the value of string a ans string b
 public class SwapVar {
     public static void main(String[] args) {

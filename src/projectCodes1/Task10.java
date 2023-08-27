@@ -1,4 +1,4 @@
-package codingTasks;
+package projectCodes1;
 
 //Write a program to print out duplicate elements from an Array of
 //Strings?
