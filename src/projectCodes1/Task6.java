@@ -12,9 +12,9 @@ public class Task6 {
         int number= scanner.nextInt();
 
         if(number%2==0){
-            System.out.println("This is a prime number");
-        }else{
             System.out.println("This is not a prime number");
+        }else{
+            System.out.println("This is a prime number");
         }
 
     }

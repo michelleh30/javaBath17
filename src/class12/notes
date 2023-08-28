@@ -1,0 +1,35 @@
+Methods/Functions/Behaviours/Routines
+    methods are blocks of code that contains pre-written code that is executed.
+    when we call a methods;example scanner
+
+    we are creating the obj of scanner class
+            Scanner scanner=new Scanner(System.in);
+            using the scanner obj we are calling the nextInt methods
+            scanner.nextInt();//this is calling the methods
+
+        Methods/Functions/Behaviours/Routines
+            Methods are are blocks of code that contains pre-written code that is executed.
+            When we call a methods
+
+         ----There are two types of methods:
+               1)Methods which do not return any data ( void type)
+               2)Methods which can return data like int double char etc.
+
+
+                   ==========
+                   datatype methodName (datatype nameOfParameter, dataType nameOfOtherParam){
+                   this is where we write the logic
+                   retrun the results if method type is not void
+
+                   }
+
+                Syntax:
+                int add ( int num1,int num2){
+                           int result=num1+num2;
+                           return result;
+                           }
+                  int=> return type of method
+                  add=> nma eof the method
+                  (int num1,int num2) => parameters
+                  {   =>>>> Body of the method
+                  int result = num1+num2
