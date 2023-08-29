@@ -15,10 +15,15 @@ public class Hw83 {
                 {0,1,2}
         };
 
-        int rows;
-        int cols;
-        int sumRows;
+        int sum=0;
 
+        for(int [] arr1D: numbers){
+            for (int num:arr1D){
+                sum=sum+num;
+            }
+            System.out.println(sum);
+            sum=0;
+        }
 
 
     }
