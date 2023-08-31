@@ -1,0 +1,63 @@
+Types of the variables: 3 types
+
+local - temporary
+instance- Long
+static- permanent.
+***********************************
+
+Local variables:
+            are the variables which are created, declared inside a block of code. like if else condition,
+            loop, switch statement, methods are block of code. They can only be work from inside the code
+
+
+upside:
+            they occupy the memory for shorttest pd of time.As soon as java is done executing that
+            block of code they are remove from memory. Java does not allow it to be accessed outside the block.
+            It saves space, it makes spaces for other variables
+
+
+downside:
+            they can only be accessed within the block of code they are created.
+
+*****************************************
+
+Instance var:
+            are the var. which are created outside of the blocks(if else,switch,loops or methods etc.)
+            of codes but inside a class.
+
+ Upside:
+            They can be accessed anywhere within the class
+
+ Downside:
+            They are created when an object of the class is created and they will
+            stay in the memory as long as that object is in the  memory whether you
+            use them or not
+
+************************************************
+Static var:
+            are created inside a class but outside of a block of code. Cant be local.
+            And are instance var but with STATIC keyword.
+
+Upside:
+            They are universal when it comes to scope and accessibility.We dont even need to create the obj
+            of that class in which they are created
+
+
+Downside:
+            Static var occupy the memory for longest of all.
+
+
+Use of types of local var:
+            Local:
+                Whenever we are solving any problems many times we need local var to temporally store data.
+                 In all of these cases you should be going with local var
+
+
+
+Note:
+    we will do a little bit of StringBuilder
+    we will discuss Thread safety StringBuilder vs StringBuffer
+    one ex for meoths as well
+    Project 1
+
+static differs from instant by adding staic before data type right?

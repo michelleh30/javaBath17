@@ -11,5 +11,7 @@ package replitHw5;
 public class Hw86 {
     public static void main(String[] args) {
 
+        String name="roll_no";
+
     }
 }

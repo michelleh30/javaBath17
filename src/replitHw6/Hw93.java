@@ -11,8 +11,13 @@ public class Hw93 {
         String target1 = "dab";
         String target2 = "ABRA";
 
-        int length=str.length();
 
-        System.out.println();
+
+        System.out.println(str.indexOf('c'));
+        System.out.println(str.indexOf(" "));
+        System.out.println(str.indexOf(target1));
+        System.out.println(str.indexOf(target2));
+
+
     }
 }
