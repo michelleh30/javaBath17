@@ -6,8 +6,8 @@ public class Hw3 {
         String word="akdnfAdnif83h943*&^%";
 
 
-        //String [] strs=word.split(" ");
-        //System.out.println(word.length());//this gives me all the char in total
+        String [] strs=word.split(" ");
+        System.out.println(word.length());//this gives me all the char in total
 
     }
 
