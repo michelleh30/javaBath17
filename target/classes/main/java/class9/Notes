@@ -1,0 +1,4 @@
+2 D Arrays is array in side another array,nested array
+String [] firstrow=names[0]---- will print out the first row
+2d arrays are multiply combination of 1d arrays
+<numbers[row].length gives us the complete 1Darray .
