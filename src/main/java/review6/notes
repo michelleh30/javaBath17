@@ -36,3 +36,8 @@ Creating objects from String class.
 
 Instance variable---it's inside the class but outside the block of code;
 if a variable is declare create outside of any block of code but inside a class
+
+Using String. split() Method.
+Using Pattern. split() Method.
+Using String[ ] Approach.
+Using toArray() Method.
