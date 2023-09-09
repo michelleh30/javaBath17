@@ -1,4 +1,7 @@
 package replitHw6;
+
+import java.util.Scanner;
+
 //Based on the user inputs program should give a correct answer.
 //
 //If browser is Chrome or Chrome or CHROME or ChRoMe it should print the:
@@ -18,6 +21,19 @@ package replitHw6;
 //"Invalid browser"
 public class Hw97 {
     public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("Please enter program");
+        String program=scanner.nextLine();
+
+        if(program.equalsIgnoreCase("Chrome")){
+            System.out.println("Proceed with Chrome browser");
+        }else if(program.equalsIgnoreCase("FireFOX")){
+            System.out.println("Proceed with Firefox browser");
+        }else if(program.equalsIgnoreCase("IE")){
+            System.out.println("Proceed with IE browser");
+        }else{
+            System.out.println("Invalid browser");
+        }
 
     }
 }

@@ -33,3 +33,11 @@ String class:
 Creating objects from String class.
       1)length()--count how many letter they are
       2) isEmpty()--boolean check if string has any letter or is empty
+
+Instance variable---it's inside the class but outside the block of code;
+if a variable is declare create outside of any block of code but inside a class
+
+Using String. split() Method.
+Using Pattern. split() Method.
+Using String[ ] Approach.
+Using toArray() Method.

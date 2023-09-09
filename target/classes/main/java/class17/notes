@@ -1,0 +1,62 @@
+Inheritance:
+    allows one class to have all the properties and
+                 methods from another class except private members and constructors.
+                 We use extends keyword. Allows one class to have all the properties and methods from another class.
+                 Except private method / constructors
+                 we use extends keywords.
+
+Why should we learn about Inheritance:
+                1) Faster development
+                2) Saves memory
+                less code
+
+
+problem in inheritance couple:
+            dont more use it, 3-4 classes is fine,
+            if use too much its a dominion effect if you change something in one it will affect
+            everything in the other classes
+
+Syntax:
+    class Parent{
+
+    }
+
+    class Child extends Parent{
+
+    }
+
+Rules:
+    1) Private members(fields and methods) are not accessible in child classes.
+    2) Constructors are also no available for child classes directly.
+
+Types of Inheritance:
+    1) Single
+    2) Hierarchical
+    3) MultiLevel
+    4) Hybrid
+    5) Multiple(It is not supported by java)
+
+1)Single Inheritance:
+    Only one parent and only one child(Not very common).
+2)Hierarchical:
+    One parent multiple child.
+3)MultiLevel:
+    Multilevel inheritance happens when a class C inherits from B and B inherits from A.
+4) Hybrid:
+    Hybrid is a mixture of Hierarchical and MultiLevel.
+5)Multiple:
+        Multiple parent classes and one child class.
+        child well get confuse to know which parent it will want to go
+
+
+
+What is Diamond problem in OOP?:
+            The ambiguity that arises when two classes B and C inherit from A,
+            and a further class D inherits from both B and C, so that if there is a method in A that B
+            it is unclear which version of the method D should inherit.
+
+                    So, the "diamond problem" is like when you have this tricky situation where you inherit something from
+                    two different sides of your family (in our example, from both mom and dad), and they both want to change
+                    or add something to it. It can be confusing because you have to decide which change to pick or how to
+                    combine them.
+

@@ -12,7 +12,8 @@ public class Hw98 {
     public static void main(String[] args) {
 
         String str="Hello Syntax friends";
-        //String newStr=str.replaceAll("[Welcome] Syntax family]");
+        String newStr=str.replaceAll("Hello Syntax friends","Welcome Syntax family");
+        System.out.println(newStr);
 
 
 

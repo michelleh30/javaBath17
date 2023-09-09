@@ -1,0 +1,13 @@
+Super Keywords:
+        is used to access things from the parents class.
+
+Inheritance:
+        the property of parent class to child class
+        allows one class to have all the properties and
+        methods from another class, thus allowing us to call those methods
+
+constructor: not avib;e to child class, the main purpose of the constructor build the obj from class
+it bring the class to life
+super mean parents
+
+to have access to private field outside of the package, there is only way: protected

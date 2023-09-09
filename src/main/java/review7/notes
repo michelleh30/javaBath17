@@ -1,0 +1,16 @@
+object:are like the houses, you can have many
+class:is like a blueprint, map
+    inside a class:behavior= methods, filed, attributes
+
+    behavior= methods,uses verbs
+
+2 ways to create a String
+
+instance var.: they are located outside the block of code/inside the class, they belong to the obj and not class
+
+static var: we do not need an obj to access them, they belong to the class but outside of any method, we know they
+are static b/c its says static
+
+constructor: calling the con when creating the obj, is a block of code similar to a method executed when creating an obj
+Constructors help us create the objects from the classes
+const to instalizw the obj
