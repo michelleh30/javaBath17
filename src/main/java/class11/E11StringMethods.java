@@ -1,5 +1,5 @@
 package class11;
-//individual letter
+//individual letters
 public class E11StringMethods {
     public static void main(String[] args) {
 
