@@ -17,6 +17,9 @@ public class Hw119 {
         String censorLetter="computer science";
         System.out.println(censorLetter.replaceAll("e","*"));
 
+        String censorLetter1="trick or treat";
+        System.out.println(censorLetter1.replaceAll("t","*"));
+
 
 
 

@@ -1,0 +1,73 @@
+Types of variables:
+    With respect to scope there are three types of variables. Local, instance and static.
+Local Variables:
+    Variables which are declared inside a block of code are called local variables.
+    For example all the variables that we declare inside if-else statements,Loop, Switch
+    case statement, Methods and Constructors.
+UpSide:
+    They occupy the memory for shortest period of time as soon as the block of code is
+    done executing they are removed from the memory.
+DownSide:
+    They can only be used inside the block they are created.
+When should we use Local Variables:
+    Always go for local variables if possible.
+Instance Variables:
+    The variables which are declared inside a class but outside of any
+    block of code are called instance variables.
+Upside:
+    They can be accessed inside any instance method or constructor.
+Downside:
+    Occupy the memory for longer than local variables.
+    Can't be accessed inside the static methods.
+    here is why:
+    static methods are not tied to any specific instance;
+    they belong to the class and have class-level scope and lifetime.
+    When you call a static method, there may not even be an instance of
+    the class in existence. Therefore, static methods have no direct
+    access to instance-specific data.
+When should we go with Instance variables/field/properties/attributes:
+    1)When we want to share something across all instance methods
+    2) When we are planning to create multiple objects from that class
+    and every object might have a different value for a variable.
+Static variables:
+    Instance variable with static keyword are called static variable
+    it can be public and final so that everyone can access it but not change it
+Upside:
+    They have the widest scope can be accessed anywhere if combined
+     with proper access modifier. They can be access anywherein a project.
+DownSide:
+    They can store once value at a time. If any one change that value from anywhere
+     it will get changed everywhere.
+     They stay in the memory for the longest period of time.
+When to use Static var:
+    Whenever we want to share something across all methods anf other classes we
+    should go with static varables. 90% of the time they are final and public
+    as well so that everyone can use them but no one can modify them.
+
+Static Methods:
+    Methods which are declared with static keyword are called static methods.
+Upside:
+    They can be used by just writing the name of the class. Can be accessed
+     anywhere if combined with proper access modifier.
+Downside:
+    We cant override them. Which menas we will not bwe able to write dynamic code or will
+    not able to use polymorphism.
+When to use static methods:
+    When I want to access methods from anywhere and I dont want to creat an object.
+====================================================================================
+
+Constructors:
+    Are special type of methods which are used to give intial vaule to fields/instance/properties/attributes.
+    They also help us build an obj more easily from a class.
+Rules:
+    1. Constructors dont have any return type not even void.
+    2.They must have same name as class
+    3. Static is not allows with con.
+
+Interview questions:
+    Can we have private con? Yes
+    Can we use Static with construtor? No
+
+
+
+

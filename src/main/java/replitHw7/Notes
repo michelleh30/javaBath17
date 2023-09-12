@@ -1,0 +1,17 @@
+hw 143
+ //public Hw143(String make,String model,int topSpeed,double price){
+        //this.make=make;
+        //this.model=model;
+        //this.topSpeed=topSpeed;
+        //this.price=price;
+    //}
+
+    //public Hw143(int numberOfDoors,int topSpeed,double price) {
+        //this.make=make;
+        //this.model=model;
+        //this.numberOfDoors=numberOfDoors;
+        //this.topSpeed=topSpeed;
+       // this.price=price;
+    //}
+    //public Hw143()
+

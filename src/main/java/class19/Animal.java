@@ -31,7 +31,9 @@ class Dog extends Animal{
 
     public void printInfo(){//if everything the same java is going to call the method from your class
         //System.out.println("my own Methods");//this will print out b/c its last and not from the parents
+
         super.printInfo();//calling the method from the parent
+
         System.out.println(weight);//this was missing, override the method to get weight
 
     }
