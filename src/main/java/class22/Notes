@@ -1,0 +1,31 @@
+inher is to help us use the code
+ void move(){
+        you can write code inside
+    }this mean body in a method
+
+Interface:
+    Are like contracts/abtract. In which we define abstract methods which the classes have to implement.
+    They can also have public static var.
+
+Why should we learn about interface?
+      1.Specially designed for abstraction
+      2. light weight as compared to abstract classes
+      3. we can achieve multi inheritance in interface
+      4. there is no diamond problem when having multi inheritance
+      5. help us build things in a modular way can be used with classes
+      even if they are not closely related.
+
+by defuly all the feil inside are public static final
+multiple classes thue dont need to have a connection,multiple inhe
+abstract needs implementation
+
+Rules:
+    1. Interfaces dont have instance methods but can have static method
+    2. No instance feild are allowed, all the feild inside an interface are public
+    static final
+    3.No constructors are allowed
+    4. Cant create objects as there are no constructors
+    5. Cant have final keyword with interface or methods as they are default abstract
+    6.
+
+

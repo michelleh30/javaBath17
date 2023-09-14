@@ -8,8 +8,11 @@ public class E2InstanceVar {
         System.out.println(name);
 
     }
-    static void pribtInfo(){//static
-        //System.out.println(name);//
+    void PrintInformation(){//instance var
+        System.out.println(name);
+    }
+    static void printInfo(){//static
+        //System.out.println(name);//this is instance
 
     }
 
@@ -20,7 +23,7 @@ public class E2InstanceVar {
         E2InstanceVar e2=new E2InstanceVar();//obj
         e2.name="scam";
 
-        E2InstanceVar.pribtInfo();
+        E2InstanceVar.printInfo();
 
         //only need the name of the class to make an obj to print
         //every obj

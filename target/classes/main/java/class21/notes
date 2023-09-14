@@ -1,0 +1,13 @@
+Abstraction:
+    is the process of hiding details and showing only the functionality to
+    the end user.
+    allows use to fouce
+    its flixable,hiding the deatils
+    remove the heard part to make it abtract
+    So every child class of an abstract parent class must have all the methods from the parent class
+    Why should we use Ab
+    1. Flexibility(if we dont know or dont want to provid use Abstract
+    What the point of ab?
+    leaving implementation of different objects behaviors to the end user of the parent class
+     basically abstract is for incomplete classes\
+     polymorphism? same method giving different output; polymorphism is many forms of methods

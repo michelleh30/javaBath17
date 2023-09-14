@@ -1,7 +1,15 @@
 package replitHw7;
 
 public class Hw126 {
-    static int count;
+    static int instanceCount;
+
+   // int[] arr ={10,-20,30,40};
+
+    // Tests : It will validate your code for various inputs
+    // Positive Numbers
+    // even number which is negative
+    // odd number
+    // Negative Number
 
 
     public static void main(String[] args) {
