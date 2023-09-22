@@ -1,0 +1,52 @@
+PolyMorphism:
+    many forms, its the ability of an obj to behave differently. we can achieve poly in 2 ways one is methodOverloading and other
+    is methodOverriding(very common).
+
+Why should we learn about poly?
+   we can use the same interface with different types of classes/objects
+   1. its allows us write dynamic programs. Which can saves us a lot of code repetition.(Animaltester)
+
+   2.
+ex.
+Webdriver driver = new ChromeDriver();
+
+webdriver in an interface that is implemented with Chrome driver
+webdriver: is a interface, Webdriver is parent to chrome, edge, firefox
+driver:  variable can hold object of  differeny broweser
+we will see only the methods of ChromeDriver only
+
+Interview Questions:
+    Do we need MethodOverriding for polymophism?
+        Yes but we can also do this using methodOverloading.
+
+Abstraction:
+    is the process of hiding implementation details
+    and showing only the functionality.
+   are incomplete classes, method with no body.
+   The code is implemented in the children classes, no body, no parameters
+Why:
+   make it easier to the end user
+   When we use Abstraction it simplifies out code. Those classes which
+   dont need to provide the implementation to the methods cxan leave it.
+
+Keywords:
+    Abstract.
+
+    yuo cant put abtract
+Interview Questions:
+    Can we have private methods as abstract methods?
+        Private means no pariticipation in inheritance which mena no overriding
+        which will make abstract method useless.
+
+    Can we have a method as final and abstract at the same time?
+        No. Final means something is complete and does not require no change
+        abstract mean something is incomplete and requires modification
+        These are opposite to each other and not allowed.
+
+Interfaces:
+    are collection of public static final variables and methods which are by default public
+    and abstract. After Java 8 we can have default static and private method as well.
+
+
+
+
