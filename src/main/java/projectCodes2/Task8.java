@@ -1,5 +1,6 @@
 package projectCodes2;
 /*
+*Still need help*
 Write a Java Function that increments a string,
 It should take the string of unknown length. Don't use regular
 expressions.
@@ -11,11 +12,14 @@ Function signature:
 string Increment (string str)
  */
 public class Task8 {
-    /*
+
     public static String Increment(String str){
+        // Convert the input string to an integer
     int num=Integer.valueOf(str);
+
     num++;
 
+// Convert the incremented integer back to a string
     return Integer.toString(num);
 }
 
@@ -24,12 +28,10 @@ public class Task8 {
         String input2 = "53456";
         String input3 = "29";
 
-        System.out.println("Incremented: " +Increment(input1));
-        System.out.println("Incremented: " +Increment(input2));
-        System.out.println("Incremented: " +Increment(input3));
+        System.out.println("Incremented: " + Increment(input1));
+        System.out.println("Incremented: " + Increment(input2));
+        System.out.println("Incremented: " + Increment(input3));
 
 
-     */
-    
-
+    }
 }

@@ -2,7 +2,7 @@ package class24;
 
 import java.util.ArrayList;
 
-//create an arraylist of drinks . if any drinks has a letter "a"
+//create an arraylist of drinks . if any drinks has a letter "a" or
 //"e" replace it with water
 public class Task3 {
     public static void main(String[] args) {
