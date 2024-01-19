@@ -8,7 +8,7 @@ public class Task5 {
 
         ArrayList<Integer> numbers=new ArrayList<>();
 
-        for (int i = 2; i <=500; i+=2) {
+        for (int i = 2; i <=100; i+=2) {
             numbers.add(i);
 
         }

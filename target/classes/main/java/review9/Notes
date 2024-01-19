@@ -1,0 +1,44 @@
+Why use the super keyword?
+    1.To specifically call something from parent class variable method or contertor. Like
+        not private
+    2. We can use super()
+
+MethodOverLoading:
+    1. When we have same method with different parameter its called method overload. Parameter can
+    be different in 3 ways
+        num of parameters, data type, sequence
+    2. We  can change the count of parameters. We can overload method as well as constructors.
+    3. We can also change the datatype of parameters if the numbers of parameters are
+    same.
+    4. We can change the sequence if datatype and number of parameters are the same.
+Why?
+    1. Clearer code: we dont have to come up with different method names.
+    2. Reuse: same name can be reused many times.
+
+Interview Question?
+    Can we overload a private method?
+        Yes. printer example
+    Can we overload a static method?
+        Yes
+    Can we overload the main method?
+        Yes, by changeing the parameters----public static void main(int[] args)
+    Can we overload a method by changing its return type?
+        No--becuase
+    Can we overload a protected method?
+        Yes--there is no restition
+
+
+viod-- you can only print, you cant take it to a different class, cant communicate back
+reture method if i want to use it in a different class
+=================================================================
+IMPORANT INTERVIEW QUESTION
+MethodOverriding:
+    When same method is preanet in parent as well as child class. Its called method overriding.
+    When we override a method Java prefers the method from the child class.
+Why?
+
+
+
+
+
+

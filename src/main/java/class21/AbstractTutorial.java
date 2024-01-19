@@ -7,14 +7,14 @@
 package class21;
 abstract class Dog{
     public void bark(){
-        System.out.println("Bark!");
+        System.out.println("Bark!");//("Bark!") is being implemented
     }
-    public abstract void poop();//doesnt know what to do when its called, so we have to tell it what to do
+    public abstract void poop();//this is a abstract method doesnt know what to do when its called, so we have to tell it what to do, it's not implemented
 }
 
 class Chihuahua extends Dog{
     public void poop(){
-        System.out.println("Dog pooped!");//now it know that it needs to poop, its implemented
+        System.out.println("Dog pooped!");//now its being called,now it know that it needs to poop, its implemented
     }
 }
 

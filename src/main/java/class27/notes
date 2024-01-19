@@ -1,0 +1,55 @@
+What is a File?
+    File is something that we use to store information.
+    1. txt files are use to store raw text
+    2.pdf files are usually used to store books and articles
+    3. xlsx files are usually used to store info in the form of a a table
+    4. .jpg .jpeg .png files are used to store image
+    5. mp4 .mkv .mov are use to store videos
+
+Why we sue files?
+    Its easier to move the information around because it just one single file.
+
+Folders/Directories:
+    Its like a container for files. It can contain many different files.
+    Folders can organize the files
+
+File Handling:
+    File is creating/ediing/accessing/deleting the files on a computer with the help of a programming language
+
+absolute filed means complete name/address
+
+Steps to work with file
+    1.To locate the file usually we use the absolute(complete) paths for that for ex.
+        C:/users/syntax/desktop/batch17/names.txt ---this is a address
+        C --- Drive
+        user--folder
+        names--file
+        txt--extension
+
+    2. We need to have access and a piece of software that can edit/open that file.
+    3. To bring files from the permanent storage into the RAM.
+
+What is a RAM?
+    Random access memory
+    temporary storage of memory--short term memory
+    fast and expensive
+    once we turn off the computer everything that we put in the RAM is gone
+    when we want to work on something we need to bring inside the RAM
+
+What is Storage/SSD/HDD/NVME?
+    Its permanent storage that we use to store
+    cheap but they are slow
+
+in plain words :
+ work on daily basis -bring to hard disk(download to your computer),
+    work currently - bring to RAM
+
+Why should we learn about FileHandling?
+    1. So that we can store the data permanet
+    2. We can store the sensitive data like userName password etc inside the files and keep them secure on the computer and dont push
+    it with code on github
+    3. All the configuration related information like URLS and types of testing will also be store in the files
+
+
+
+

@@ -1,0 +1,13 @@
+Set:
+    are special set of classes which do not allow duplicate elements.
+    Set is the main interface and there are 3 main classes which implement
+    the interface.
+
+        1.HashSet
+        2.LinkedSet
+        3.TreeSet
+        thet all are doing the set interface
+
+HashSet:
+    Upside: its the fasted out of all of them
+    downside: it doesn't remember the insertion order. The way we put code inside, doesn't maintain the position of it.

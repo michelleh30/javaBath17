@@ -1,0 +1,58 @@
+Collections Framework:
+    Collections of classes and interfeace which contain a ,lot os useful methods that
+     we can use to store and manipulate large amount of data
+
+Why should we use?
+    Arrays and var are not good for storing and manipulationg large amounts of data as Arrays are
+    1. fixed in size
+    2. There are no built-in methods in arryas
+
+
+When we should use ASrrays are they useless now?
+    Arrays are not useless even the arraylist is butil using the arrays under the hood.
+    1.Arrays are fast adn very space efficient when we know the size of something in advance we should prefer arrays.
+
+
+*his is why we use arraylist*
+you have to use wrapper class for numbers
+Wrapper classes:
+    are object types whcih can be treated as we treat obj. helps to convert primitive into object.
+Why should we use wrapper classes:
+    1. which can be treated as we treat objs. we can call methods which is not possible with primitive.
+    2. collections framework only works with classes which means we cant  use primitives.
+
+Arraylist is not good if you want to add a new element becuase it will move everything better use linklist
+Arraylist:
+    the data is stored in consecutive(side by side) memory locations. Meaning accessing this data will
+be easier how ever if we have to add somethig in between later one we must shirt the data.
+
+LinkList:
+    Dta is not stores side by side in memory locations meaning its going to be hard to find the data becuase we must to throught all the elements
+    which are present before it
+    But adding and removing elelemts from in-between will be super easy as we just need to re-adjust the links
+
+Interview Qs:
+    90% the operations are retriving the store data and 10% are adding or removing the elements which datastructure
+    we should use Arraylist or LinkList?
+        Arraylist because its much faster and easier to retrieve it.
+
+*************************************************************************************************************************
+
+Sets : Collections Framework
+    is an interface in collections framework. There are 3 main classes which implement this interface.
+    1.HashSet
+    2.LinkedHashSet
+    3.TreeSet
+    One thing is common in all of the classes they dont aloow to store duplicate data.
+
+HashSet:
+    UpSide--Its fast
+    DownSide-- does not maintain the insertion oder(order), its sorts data in its own way
+
+LinkedHashSet:
+    UpSide--maintains the insertion order
+    DownSide--Its slower than HashSet
+
+TressSet:
+    UpSide--Keeps the data in order from smallest to largest
+    DownSide--Slowest of all 3

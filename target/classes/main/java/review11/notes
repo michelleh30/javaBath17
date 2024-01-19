@@ -1,0 +1,64 @@
+every primitive data type equivalents wrapper class
+as the Collections Framework doesn't support the primitive data type
+
+Collections Framework:
+    sets of classes and interfaces in java that we use to store large amounts of data easily.
+    There are masny classes containing many useful methods to maniputlate the data.
+    These Data Structures are dynamic.
+
+Why we should be learning CF?
+    1.Not fixed in size like arrays.
+    2.  ThEey have ready made(built in for us, they already exsit) methods foe us to use.
+
+Any downside?
+    yes
+    1. they are slower than array
+    2. as they only work with non-primitives they occupy more memory
+
+Wrapper Classes:
+    Objs that allow us to work with primitive data types in collections
+    For every primitive datatype java developers created a Class of that we can store the primitive data incollections framework
+    They also have a way of converting a primitive to an equivalent wrapper its called boxing and when we do
+    the reverse its called unboxing
+
+Some of the main classes in collections framework:
+List
+They maintain the insertion order---remembers the order of how i put them
+They can store duplicate data as well
+    1. ArrayList implements List
+    2. LinkedList implements List
+    know what they do and their benefits
+
+interfaces : list, map, set
+classes linked list, HashSet, Treeset
+
+==============================================================================
+remove() --- only removes one element
+removeIf() -- removes all of the elements which meets the condition
+removeAll removes a complete list of the elements
+set() --- replaces only one element
+replaceAll --- all the elements which meets a sp
+
+==========================================================
+Sets:
+    They dont allow duplicate data.
+
+HashSet:
+    Upside: Fastest of all of them
+
+    DownSide: does not remember insertion order
+
+LinkedHashSet:
+    Upside: maintains the insertion order
+
+    Downside: Its a little slow as compared to the HashSet
+
+TreeSet:
+    Upside: Keeps the data sorted
+
+    Insertion speed is super slow
+    Searching is fastest.
+    Downside:
+
+
+

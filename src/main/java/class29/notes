@@ -1,0 +1,63 @@
+Types of Errors in Java:
+    There are three main types in java.
+
+1.Syntax errors/ Compile time errors--when it underlines red error
+    easiest error to fuiner out
+    ex.
+        int age=10;
+        age int=10;
+        error
+IDE: (integrated development environment)
+    Intellij is an IDE
+    IDEs typically provide a code editor, a compiler or interpreter and a debugger
+    that the developer accesses through a unified graphical user interface
+
+How to slove Syntax/Compile time error?
+    1. most of the time your IDE(integrated development environment) is going to help you
+    2. Comiler will also generte anb error with line numbers and explanations
+    3. You can look for the rules of the language
+=============================================================================================================
+2. Logical errors/Bugs
+    it happen because we didn't write the logical correctly
+    Logical occur when programs do not generate the expected outputs.
+
+How to fix this types of errors/bugs:
+    we can use Dubugger to fix these types of errors
+    testing first
+    report to developer
+============================================================================
+3.Runtime errors/Exceptions
+   *are unwanted events that disrupts that normal flow of a program
+   we only get this error after we run the code
+   its the worst error
+
+How to fix runtime/Exceptions errors?
+
+
+if an error can be voided with an If condition use that instand of try-catch block
+
+uncheck exceptions(same problem)
+    use if condition
+    most of the time its because of programmer mistake or
+
+check exceptions
+    they can never be voided using if condtion meaning use try-catch block or adding the exceptions in the main method
+    better to user the try catch block
+================================================================================
+In the try catch block
+Try:
+    write the code that is going to give a problem
+    give it a chance
+
+Catch:
+    its the code that its going to excuced if the try code happens
+    can have many catch blocks code
+    the last block can be just and exceptions because its the parent class
+
+IOException is the parent of file not found exception
+
+Finally is a block to close critcle resouse ex closing file but we dont use this version any more
+
+
+
+

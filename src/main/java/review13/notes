@@ -1,0 +1,33 @@
+What is a file?
+    File are entities/objs that we use to store the data permanently.
+    File is an things/object which we can store information.
+    storage in hard-drive
+
+when storing a varible where is it store?
+
+the things that we never want to lose we put it into storage
+
+data always put into files
+asolate the code, share it and put it ina file
+
+File Handling:
+    Reading/writing/manaing the files using code is called fileHandling
+
+As a tester:
+    you will use .properties file excfel files sometime .csv files as well.
+    we store configuration relate data in .properties file for example
+    usernames , passwords, urls, the name of the browser on which you want to perform testing
+
+what data we store in excel files?
+    1. we store the result of testing
+    2. we store the data related to web form inside exce;. its usaully done when we
+
+Steps to work with a file:
+    1.location/path on the computer
+    2. bring the data from a file into RAM--then software can manipulate it
+    3. Specific software  or classes which understand how that file works.
+
+
+    //IO exexcepetion is a parent of file not found
+    //final block :write a code that we want to run anyway
+

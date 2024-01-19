@@ -19,7 +19,7 @@ public class E3Arraylist {
         numbers.remove(2);
         System.out.println(numbers);
 
-        numbers.removeIf(x->x>15);
+        numbers.removeIf(x->x<15);
         System.out.println(numbers);//remove number grader than 15
 
 
